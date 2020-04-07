@@ -17,7 +17,7 @@ In this tutorial we will explain how to integrate aks with azure key vault using
 
 ## Prerequisites
 
- - AKS Cluster
+ - AKS Cluster (v0.0.14 or later)
  - Key Vault (including a secret)
  - Service Principal with "get" Access to Key Vault
 
