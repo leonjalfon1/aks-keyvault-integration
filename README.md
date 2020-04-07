@@ -13,7 +13,7 @@ In this tutorial we will explain how to integrate aks with azure key vault using
 |             | Pros                                                                                                     | Cons                                                                                                                                  |
 |-------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | FlexVolumes | Easy to use and configure                                                                                | Anyone inside the container can see the secrets and the secrets are available only from the file system (not as environment variable) |
-| akv2k8s     | Only the main process of the container can access the secrets and it's available as environment variable | more complicated infrastructure that includes a crd and webhook                                                                        |
+| akv2k8s     | Only the main process of the container can access the secrets and it's available as environment variable | More complicated infrastructure that requires a kubernetes CRD and a Mutating Admission Webhook                                                                        |
 
 ## Prerequisites
 
