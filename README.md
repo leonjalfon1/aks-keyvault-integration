@@ -93,5 +93,5 @@ In this tutorial we will explain how to integrate aks with azure key vault using
 
 ## Content
 
- - [Integrate AKS with Key Vault using "FlexVolumes"](/flexvolume.md)
+ - [Integrate AKS with Key Vault using "FlexVolume"](/flexvolume.md)
  - [Integrate AKS with Key Vault using "Azure Key Vault to Kubernetes"](/akv2k8s.md)
