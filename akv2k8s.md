@@ -45,7 +45,7 @@ https://github.com/SparebankenVest/azure-key-vault-to-kubernetes
  helm install azure-key-vault-env-injector \
    spv-charts/azure-key-vault-env-injector \
    --set installCrd=false \
-   --namespace akv2k8ss
+   --namespace akv2k8s
  ```
 
 ## Configuration
